@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "webpack": "^5.71.0"
+  },
+  "name": "we",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
