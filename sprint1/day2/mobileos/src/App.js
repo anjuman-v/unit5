@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from "./components/Button"
 
 function App() {
-  const arr = ["Android", "blackberry", "iPhone", "windows phone"];
-  const arr2 = ["sumsung", "HTC", "apple", "oppo"]
+ 
   return (
-  <div>
-   <div>
-     <h1>Mobile Operating System</h1>
-     {arr.map((e) =>{
-       return <li>{e}</li>
-     })}
-     </div>
-     <div className='mobilediv'>
-     <h1>Mobile Manufacture</h1>
-     {arr2.map((e) =>{
-       return <li>{e}</li>
-     })}
-
-   </div>
+  <div className='App'>
+  <Button>button</Button>
+  <Button bgcolor={"red"} color={"blue"}>button1</Button>
+  <Button bgcolor={"blue"}>button2</Button>
    </div>
 
        

@@ -1,0 +1,26 @@
+
+#Showdata{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#tabledata{
+  
+    margin:auto;
+    border-spacing: 0px;
+    padding:10px;
+}
+
+td{
+    border:1px solid black;
+    margin: 0px 0px 0px 0px ;
+    padding:10px;
+    text-align: center;
+}
+th{
+    border:1px solid rgb(5, 5, 5);
+   gap:0px;
+    padding:5px;
+    text-align: center;
+}
+
