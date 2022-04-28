@@ -1,0 +1,7 @@
+.maindiv{
+    display: flex;
+    height: 40px;
+    width: 95%;
+    border: 2px solid red;
+    justify-content: space-around;
+}
