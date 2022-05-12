@@ -1,0 +1,35 @@
+.jennie_Box{
+  display:flex;
+  justify-content: space-around;
+}
+.center{
+  text-align: center;
+
+} 
+.CounterClasses{
+  margin:auto;
+  /* color:red; */
+  text-align: center;
+  width:50%;
+  height:30vh;
+  background-color: aqua;
+  padding-top: 20px;
+}
+.green{
+  margin:auto;
+  /* color:red; */
+  text-align: center;
+  width:50%;
+  height:30vh;
+  background-color: green;
+  padding-top: 20px;
+}
+.red{
+  margin:auto;
+  /* color:red; */
+  text-align: center;
+  width:50%;
+  height:30vh;
+  background-color: red;
+  padding-top: 20px;
+}
