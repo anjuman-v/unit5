@@ -1,13 +1,14 @@
-
 import React from 'react';
-import { User } from './User';
+import logo from './logo.svg';
 import './App.css';
-
+import HomeContainer from './containers/HomeContainer'
+import HeaderContainer from './containers/HeaderContainer'
 function App() {
   return (
     <div className="App">
+      <HeaderContainer />
      
-     <User  data = {{name:'anjuman', age:23}} />
+      <HomeContainer />
     </div>
   );
 }
