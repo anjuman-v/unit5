@@ -1,16 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import HomeContainer from './containers/HomeContainer'
-import HeaderContainer from './containers/HeaderContainer'
+import './App.css'
+import {AddTodo} from "./components/AddTodo";
+import {TodoList} from "./components/TodoList"
+
 function App() {
+  
+
   return (
-    <div className="App">
-      <HeaderContainer />
-     
-      <HomeContainer />
+    <div className='App'>
+     <h1>Redux Todo</h1>
+     <AddTodo />
+     <TodoList />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
